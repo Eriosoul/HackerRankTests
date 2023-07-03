@@ -1,6 +1,4 @@
 from gtts import gTTS #pip install gtts
-import playsound #pip install playsound
-import os
 
 language = "es"
 text = "Hola, que tal estas?. Ayer me cai por las escaleras"

@@ -8,6 +8,7 @@ with sr.Microphone() as mic:
     print('Tempo terminado')
 
 try:
+    # language selector
     texto = rec.recognize_google(audio, language='es')
     print('Texto:', texto)
 
