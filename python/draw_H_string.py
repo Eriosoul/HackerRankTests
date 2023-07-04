@@ -72,4 +72,7 @@ HHHHHHHHH
 """
 
 if __name__ == '__main__':
-    print("hola")
+    N = 5
+
+    for i in range(N):
+        print("*")
