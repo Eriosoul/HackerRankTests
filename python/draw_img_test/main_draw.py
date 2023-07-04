@@ -1,7 +1,6 @@
 import cv2
-import numpy as np
 
-image = cv2.imread("chica.jpg")
+image = cv2.imread("tom.jpg")
 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 gray = cv2.medianBlur(gray, 5)
